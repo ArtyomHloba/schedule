@@ -4,170 +4,287 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Розклад занять</title>
+    <link rel="stylesheet" href="./assets/reset.css" />
     <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <h2>Розклад занять</h2>
     <table>
-      <tr>
-        <th>День</th>
-        <th>Час</th>
-        <th>Предмет</th>
-        <th>Викладач</th>
-        <th>Ідентифікатор</th>
-        <th>Код доступу</th>
-      </tr>
-      <tr>
-        <td>Понеділок</td>
-        <td>12:55 - 14:15</td>
-        <td>JavaScript-фреймворки</td>
-        <td>Кривий Я.В.</td>
-        <td>741 682 5091</td>
-        <td>NZP4Wj</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>14:30 - 15:50</td>
-        <td>JavaScript-фреймворки</td>
-        <td>Кривий Я.В.</td>
-        <td>741 682 5091</td>
-        <td>NZP4Wj</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>16:05 - 17:25</td>
-        <td>Тестування, верифікація та валідація ПЗ</td>
-        <td>Мухін В.В.</td>
-        <td>844 4047 8886</td>
-        <td>w0Y1a3</td>
-      </tr>
+      <thead>
+        <tr>
+          <th>День</th>
+          <th>Час</th>
+          <th>Предмет</th>
+          <th>Викладач</th>
+          <th>Ідентифікатор</th>
+          <th>Код доступу</th>
+        </tr>
+      </thead>
 
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
+      <tbody>
+        <tr>
+          <td>Понеділок</td>
+          <td>12:55 - 14:15</td>
+          <td>
+            <a href="https://moodle.znu.edu.ua/course/view.php?id=15652"
+              >JavaScript-фреймворки</a
+            >
+          </td>
+          <td>Кривий Я.В.</td>
+          <td>
+            <a
+              href="https://us02web.zoom.us/j/7416825091?pwd=2subla5emXzMJ7YJxnFYmnelFo920O.1"
+              >741 682 5091</a
+            >
+          </td>
+          <td>NZP4Wj</td>
+        </tr>
 
-      <tr>
-        <td>Вівторок</td>
-        <td>14:30 - 15:50</td>
-        <td>Архітектура та проєктування ПЗ - Знаменик | Чисельник - нічого</td>
-        <td>Мильцев О.М.</td>
-        <td>612 450 2314</td>
-        <td>12345</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>16:05 - 17:25</td>
-        <td>Веб-програмування</td>
-        <td>Лісняк А.О.</td>
-        <td>635 172 0283</td>
-        <td>1234</td>
-      </tr>
+        <tr>
+          <td></td>
+          <td>14:30 - 15:50</td>
+          <td>
+            <a href="https://moodle.znu.edu.ua/course/view.php?id=15652"
+              >JavaScript-фреймворки</a
+            >
+          </td>
+          <td>Кривий Я.В.</td>
+          <td>
+            <a
+              href="https://us02web.zoom.us/j/7416825091?pwd=2subla5emXzMJ7YJxnFYmnelFo920O.1"
+              >741 682 5091</a
+            >
+          </td>
+          <td>NZP4Wj</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>16:05 - 17:25</td>
+          <td>
+            <a href="https://moodle.znu.edu.ua/course/view.php?id=17472"
+              >Тестування, верифікація та валідація ПЗ</a
+            >
+          </td>
+          <td>Мухін В.В.</td>
+          <td>
+            <a
+              href="https://us05web.zoom.us/j/84440478886?pwd=4xOeXAlbHaftFbsVo7OuQYbou8Dx1x.1"
+              >844 4047 8886</a
+            >
+          </td>
+          <td>w0Y1a3</td>
+        </tr>
 
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
+        <tr class="day">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
 
-      <tr>
-        <td>Середа</td>
-        <td>14:30 - 15:50</td>
-        <td>Веб-програмування</td>
-        <td>Мухін В.В.</td>
-        <td>844 4047 8886</td>
-        <td>w0Y1a3</td>
-      </tr>
+        <tr>
+          <td>Вівторок</td>
+          <td>14:30 - 15:50</td>
+          <td>
+            <a href="https://moodle.znu.edu.ua/course/view.php?id=16"
+              >Архітектура та проєктування ПЗ - Знаменик
+            </a>
+          </td>
+          <td>Мильцев О.М.</td>
+          <td>
+            <a
+              href="https://us04web.zoom.us/j/6124502314?pwd=T0hvdTgyL0lCTlFrOUFSZnpYYUpSQT09"
+              >612 450 2314</a
+            >
+          </td>
+          <td>12345</td>
+        </tr>
 
-      <tr>
-        <td></td>
-        <td>16:05 - 17:25</td>
-        <td>Тестування, верифікація та валідація програмного забезпечення</td>
-        <td>Мухін В.В.</td>
-        <td>844 4047 8886</td>
-        <td>w0Y1a3</td>
-      </tr>
+        <tr>
+          <td></td>
+          <td>14:30 - 15:50</td>
+          <td>
+            <a href="https://moodle.znu.edu.ua/course/view.php?id=7008"
+              >Безпека програм та даних</a
+            >
+            - Чисельник
+          </td>
+          <td>Горбенко В І</td>
+          <td>
+            <a
+              href="https://us02web.zoom.us/j/2369749033?pwd=WG9pRGdSVTMwVVhiaXZQdit4bzNOZz09"
+              >236 974 9033</a
+            >
+          </td>
+          <td>3322</td>
+        </tr>
 
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
+        <tr>
+          <td></td>
+          <td>16:05 - 17:25</td>
+          <td>
+            <a href="https://moodle.znu.edu.ua/course/view.php?id=15601"
+              >Веб-програмування</a
+            >
+          </td>
 
-      <tr>
-        <td>Четвер</td>
-        <td>14:30 - 15:50</td>
-        <td>Архітектура та проєктування ПЗ</td>
-        <td>Ярош А.О.</td>
-        <td>543 584 0466</td>
-        <td>12345</td>
-      </tr>
-      <!-- <tr>
-        <td></td>
-        <td>16:05 - 17:25</td>
-        <td>Безпека програм та даних</td>
-        <td>Мухін В.В.</td>
-        <td>844 4047 8886</td>
-        <td>w0Y1a3</td>
-      </tr> -->
+          <td>Лісняк А.О.</td>
+          <td><a href="">635 172 0283</a></td>
+          <td>1234</td>
+        </tr>
 
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
+        <tr class="day">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
 
-      <tr>
-        <td>Субота</td>
-        <td>9:35 - 10:55</td>
-        <td>Ігрові та експертні методи прийняття рішень(Глоба)</td>
-        <td>Леонтьєва В.В</td>
-        <td>625 613 1620</td>
-        <td>12345</td>
-      </tr>
+        <tr>
+          <td>Середа</td>
+          <td>14:30 - 15:50</td>
+          <td>
+            <a href="https://moodle.znu.edu.ua/course/view.php?id=15601"
+              >Веб-програмування</a
+            >
+          </td>
+          <td>Мухін В.В.</td>
+          <td>
+            <a
+              href="https://us05web.zoom.us/j/84440478886?pwd=4xOeXAlbHaftFbsVo7OuQYbou8Dx1x.1"
+              >844 4047 8886</a
+            >
+          </td>
+          <td>w0Y1a3</td>
+        </tr>
 
-      <tr>
-        <td></td>
-        <td>9:35 - 10:55</td>
-        <td>Проектування користувацького інтерфейсу(Бойченко, Рудаков)</td>
-        <td>Чемерис Г.Ю</td>
-        <td>266 366 3149</td>
-        <td>CheAn</td>
-      </tr>
+        <tr>
+          <td></td>
+          <td>16:05 - 17:25</td>
+          <td>
+            <a href="https://moodle.znu.edu.ua/course/view.php?id=17472"
+              >Тестування, верифікація та валідація програмного забезпечення</a
+            >
+          </td>
+          <td>Мухін В.В.</td>
+          <td>
+            <a
+              href="https://us05web.zoom.us/j/84440478886?pwd=4xOeXAlbHaftFbsVo7OuQYbou8Dx1x.1"
+              >844 4047 8886</a
+            >
+          </td>
+          <td>w0Y1a3</td>
+        </tr>
 
-      <tr>
-        <td></td>
-        <td>9:35 - 10:55</td>
-        <td>
-          Англійська мова професійнокомунікативної спрямованості(Просвєтов
-          Сапко)
-        </td>
-        <td>Васильченко О.О</td>
-        <td>899 509 945</td>
-        <td>english135</td>
-      </tr>
+        <tr class="day">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
 
-      <tr>
-        <td></td>
-        <td>11:25 - 12:45</td>
-        <td>Основи розробки Web-сайтів</td>
-        <td>Панасенко Є.В.</td>
-        <td>832 629 4077</td>
-        <td>016283</td>
-      </tr>
+        <tr>
+          <td>Четвер</td>
+          <td>14:30 - 15:50</td>
+          <td>
+            <a href="https://moodle.znu.edu.ua/course/view.php?id=16"
+              >Архітектура та проєктування ПЗ</a
+            >
+          </td>
+          <td>Ярош А.О.</td>
+          <td><a href="">543 584 0466</a></td>
+          <td>12345</td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>16:05 - 17:25</td>
+          <td>
+            <a href="https://moodle.znu.edu.ua/course/view.php?id=7008"
+              >Безпека програм та даних</a
+            >
+          </td>
+          <td>Мухін В.В.</td>
+          <td>
+            <a
+              href="https://us05web.zoom.us/j/84440478886?pwd=4xOeXAlbHaftFbsVo7OuQYbou8Dx1x.1"
+              >844 4047 8886</a
+            >
+          </td>
+          <td>w0Y1a3</td>
+        </tr>
+
+        <tr class="day">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Субота</td>
+          <td>9:35 - 10:55</td>
+          <td>
+            <a href="https://moodle.znu.edu.ua/course/view.php?id=16259"
+              >Ігрові та експертні методи прийняття рішень</a
+            >(Глоба)
+          </td>
+          <td>Леонтьєва В.В</td>
+          <td><a href="">625 613 1620</a></td>
+          <td>12345</td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>9:35 - 10:55</td>
+          <td>
+            <a href="">Проектування користувацького інтерфейсу</a>(Бойченко,
+            Рудаков)
+          </td>
+          <td>Чемерис Г.Ю</td>
+          <td><a href="">266 366 3149</a></td>
+          <td>CheAn</td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>9:35 - 10:55</td>
+          <td>
+            <a href="">Англійська мова професійнокомунікативної спрямованості</a
+            >(Просвєтов Сапко)
+          </td>
+          <td>Васильченко О.О</td>
+          <td><a href="">899 509 945</a></td>
+          <td>english135</td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>11:25 - 12:45</td>
+          <td>
+            <a href="https://moodle.znu.edu.ua/course/view.php?id=10113"
+              >Основи розробки Web-сайтів</a
+            >
+          </td>
+          <td>Панасенко Є.В.</td>
+          <td><a href="">832 629 4077</a></td>
+          <td>016283</td>
+        </tr>
+      </tbody>
     </table>
   </body>
 </html>
